@@ -1,0 +1,13 @@
+[{
+    "Name": "Carlos",
+    "Age": "35",
+    "Wrong": "Data",
+    "Array": ["Not", "Valid"]
+}, {
+    "Name": "Rodrigo",
+    "Age": "42",
+    "Different": "Value"
+}, {
+    "Name": "Gusmão",
+    "Age": "32"
+}]

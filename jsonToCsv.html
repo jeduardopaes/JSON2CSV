@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JSON2CSV</title>
+</head>
+
+<body>
+
+    <section id="workArea">
+        <input type="file" id="loadTextFile" name="loadTextFile" accept=".json" /><span id="fileInfo"></span>
+        <p id="fileInputValidation"></p>
+        <textarea name="jsonText" id="jsonText" cols="30" rows="10" placeholder="JSON here!"></textarea>
+        <p id="jsonTextValidation"></p>
+        <textarea name="csvText" id="csvText" cols="30" rows="10" placeholder="CSV here!"></textarea>
+        <div id="fileNameBox">
+            <input id="fileName" name="fileName" type="text" placeholder="Name of file to save"><span id="fileTypeLable">.csv</span>
+        </div>
+        <p id="fileNameValidation"></p>
+        <button id="convertButton" type="submit">Convert</button>
+        <button id="saveButton" type="submit">Save</button>
+        <button id="clearButton" type="reset">Clear</button>
+    </section>
+
+
+    <script src="./jsonToCsv.js"></script>
+</body>
+
+</html>
